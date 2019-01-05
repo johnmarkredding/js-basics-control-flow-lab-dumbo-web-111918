@@ -8,6 +8,5 @@ function scuberGreetingForFeet (ride) {
   } else {
     result = "No can do."
   }
-  
   return result
 }
