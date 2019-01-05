@@ -1,10 +1,11 @@
 // Write your code in this file!
 function scuberGreetingForFeet (ride) {
-  let result = ""
+  let result;
   if (ride <= 400){
-    "This one is on me!"
+    result = "This one is on me!";
   } else {
     
   }
-
+  
+  return result
 }
