@@ -12,12 +12,6 @@ function scuberGreetingForFeet (ride) {
 }
 function ternaryCheckCity (city) {
   let result;
-  if (city <= 400){
-    result = "This one is on me!";
-  } else if ((ride > 2000) && (ride <= 2500)) {
-    result = "I will gladly take your thirty bucks."
-  } else {
-    result = "No can do."
-  }
+  city === 'NYC' ? result = ""
   return result
 }
