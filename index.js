@@ -10,7 +10,7 @@ function scuberGreetingForFeet (ride) {
   }
   return result
 }
-function terneryGreetingForFeet (ride) {
+function ternaryCheckCity (ride) {
   let result;
   if (ride <= 400){
     result = "This one is on me!";
